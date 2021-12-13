@@ -13,4 +13,4 @@ After the resulting Madlib has been completed, provide the completed response ba
 Write the completed text (Example)to a new file on your file system (in the repo).
 
 ## Change Log
-[Github PR](https://github.com/Arthur-Lozano/math-series/pull/3)
+[Github PR](https://github.com/Arthur-Lozano/madlib_cli/pull/4)
