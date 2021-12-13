@@ -29,20 +29,20 @@ num_2 = input("Please enter a random number: ")
 plural_noun_5 = input("Please enter a plural noun: ")
 
 
-def read_input(n):
+def read_template(n):
     with open(n) as words:
         words_rd = words.read()
         return words_rd
 
 
-def parse_input(x):
+def parse_template(x):
     results = tuple(re.finall(r"\{(A-Za-z0-9`_]+)\}", x))
     user_output = x.replace(results[0], "")
     user_output = user_output.replace(results[2], "")
     return (user_output, results)
 
 
-def combine(a, b):
+def merge(a, b):
     new_line = a.format(b[0], b[1], b[2])
     print(new_line)
     return new_line
